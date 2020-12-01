@@ -1,0 +1,30 @@
+{
+  "name": "fake-api-server",
+  "version": "1.0.0",
+  "description": "Fake server for API Testing",
+  "main": "server.js",
+  "bin": {
+    "fake-api-server": "./server.js"
+  },
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [
+    "fake-server",
+    "fake-api-server"
+  ],
+  "author": {
+    "name": "Rajat Sharma",
+    "email": "rajat.prototype@gmail.com",
+    "url": "https://github.com/rajatprototype"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
